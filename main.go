@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "ecomjc-be/commands"
 
 func main() {
-	fmt.Println("Test")
+	commands.InitServer()
 }
